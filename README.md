@@ -65,7 +65,24 @@ typeof myMock.mock.results === Array()
 }
 ````
 ### mockRestore
+````javascript
+() => {
+	f.mockReset();
+	
+	return restore ? restore() : undefined;
+}
+````
 ### mockReturnValueOnce
+````javascript
+value => {
+	// next function call will return this value or default 			
+	return 	value
+	const mockConfig = this._ensureMockConfig(f);
+
+	mockConfig.specificReturnValues.push(value);
+	return f;
+}
+````
 ### mockResolvedValueOnce
 ### mockRejectedValueOnce
 ### mockReturnValue
