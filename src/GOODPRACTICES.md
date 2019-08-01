@@ -2,6 +2,10 @@
 
 Go back [home](../README.md/#mock-jest)
 
+## Summary
+
+- [Typo](#typo)
+
 ## Typo
 
 Always give a name to mock function

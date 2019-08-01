@@ -2,6 +2,13 @@
 
 Go back [home](../README.md/#mock-jest)
 
+## Summary
+
+- [ToBeCalled](#tobecalled)
+- [ToBeCalledWith](#tobecalledwith)
+- [lastCalledWith](#lastcalledwith)
+- [toMatchSnapshot](#tomatchsnapshot)
+
 ## ToBeCalled
 
 Assert to know if mock function as been called at least once
