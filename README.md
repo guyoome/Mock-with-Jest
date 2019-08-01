@@ -1,10 +1,22 @@
 # Mock Jest
 
+## Assert
+
+- [\Assert](./src/assert.md/#assert)
+
+## Good Practices
+
+- [\Good Practices](./src/goodpractices.md/#good-practices)
+
 ## Attributes
 
 - [\_isMockFunction](#ismockfunction)
 - [getMockImplementation](#getmockimplementation)
-- [mock](#mock) - [calls](#calls) - [instances](#instances) - [invocationCallOrder](#invocationcallorder) - [results](#results)
+- [mock](#mock)
+  - [calls](#calls)
+  - [instances](#instances)
+  - [invocationCallOrder](#invocationcallorder)
+  - [results](#results)
 - [mockClear](#mockclear)
 - [mockReset](#mockreset)
 - [mockRestore](#mockrestore)
