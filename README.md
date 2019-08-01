@@ -2,11 +2,11 @@
 
 ## Assert
 
-- [\Assert](./src/assert.md/#assert)
+- [\Assert](./src/ASSERT.md/#assert)
 
 ## Good Practices
 
-- [\Good Practices](./src/goodpractices.md/#good-practices)
+- [\Good Practices](./src/GOODPRACTICES.md/#good-practices)
 
 ## Attributes
 
