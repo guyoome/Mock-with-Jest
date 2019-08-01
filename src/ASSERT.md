@@ -1,4 +1,4 @@
-# ASSERT
+# Matchers
 
 Go back [home](../README.md/#mock-jest)
 

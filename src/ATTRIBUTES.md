@@ -8,6 +8,7 @@ Go back [home](../README.md/#mock-jest)
 - [getMockImplementation](#getmockimplementation)
 - [mock](#mock)
   - [calls](#calls)
+    - [length](#length)
   - [instances](#instances)
   - [invocationCallOrder](#invocationcallorder)
   - [results](#results)
@@ -48,6 +49,14 @@ myMock._isMockFunction;
 ```javascript
 typeof myMock.mock.calls === Array();
 ```
+
+#### length
+
+```javascript
+typeof myMock.mock.calls.length === Number;
+```
+
+Return number of times myMock as been called
 
 ### instances
 
