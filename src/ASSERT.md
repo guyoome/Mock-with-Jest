@@ -4,10 +4,21 @@ Go back [home](../README.md/#mock-jest)
 
 ## Summary
 
+- [Not](#not)
 - [ToBeCalled](#tobecalled)
 - [ToBeCalledWith](#tobecalledwith)
 - [lastCalledWith](#lastcalledwith)
 - [toMatchSnapshot](#tomatchsnapshot)
+
+## Not
+
+**.not** can be used for every following matchers to express the opposite
+
+Exemple :
+
+```javascript
+expect(mockFunc).not.toBeCalled();
+```
 
 ## ToBeCalled
 
@@ -17,7 +28,7 @@ Assert to know if mock function as been called at least once
 expect(mockFunc).toBeCalled();
 ```
 
-Another way to test it
+Another way to write it
 
 ```javascript
 expect(mockFunc.mock.calls.length).toBeGreaterThan(0);
@@ -35,6 +46,12 @@ Assert to know if mock function as been called with specific argument
 
 ```javascript
 expect(mockFunc).toBeCalledWith(arg1, arg2);
+```
+
+Another way to write it
+
+```javascript
+expect(mockFunc.mock.calls).toContainEqual([arg1, arg2]);
 ```
 
 Exemple :
