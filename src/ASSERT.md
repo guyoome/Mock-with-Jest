@@ -1,5 +1,7 @@
 # ASSERT
 
+Go back [home](../README.md/#mock-jest)
+
 ## ToBeCalled
 
 Assert to know if mock function as been called at least once
@@ -46,15 +48,14 @@ const mockResponse = () => {
 describe("[CASE-X] - something to test", () => {
   it("should... ", async () => {
     // Arrange
-    const req = mockRequest();
     const res = mockResponse();
+    //........//
 
     // Act
     try {
       await aRandomController(req, res);
     } catch (error) {
-      console.log("error message : ", error.message);
-      console.log("ERROR : ", error);
+      //........//
     }
 
     // Assert

@@ -1,6 +1,6 @@
 # GOOD PRACTICES
 
-[HOME](../README.md/#mock-jest)
+Go back [home](../README.md/#mock-jest)
 
 ## Typo
 
